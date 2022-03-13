@@ -3,6 +3,7 @@ $color: blue;
 ul {
   font-size: 14px;
   color: $color;
+  display: flex;
 }
 
 ol {
