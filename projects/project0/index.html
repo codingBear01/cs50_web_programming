@@ -1,18 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Search</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Google</title>
   </head>
   <body>
-    <form action="https://www.google.com/search">
-      <input type="text" name="q" />
-      <input type="submit" value="Google Search" />
-      <input type="submit" name="btnI" value="I'm feeling lucky" />
-    </form>
-  </body>
-</html>
+    <header>
+      <div class="other_pages_link_box">
+        <a href="image.html">Google Image Search</a>
+        <a href="advanced.html">Google Advanced Search</a>
+      </div>
+    </header>
 
-<!-- I'm Feeling Lucky https://www.google.com/doodles Advanced Search
-advanced search https://www.google.com/advanced_search
-image result https://www.google.co.kr/search?q=%ED%94%BC%EC%B9%B4%EC%B8%84&tbm=isch
-image search https://www.google.com/imghp -->
+    <main>
+      <div class="google_logo_box">
+        <img
+          class="google_logo"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google"
+        />
+      </div>
+
+      <form action="https://www.google.com/search">
+        <div class="search_field">
+          <div class="glass_icon_box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="input_box">
+            <input type="text" name="q" autofocus />
+          </div>
+
+          <div class="icon_wrapper">
+            <div class="icon_box">
+              <i class="fa-solid fa-keyboard"></i>
+            </div>
+            <div class="icon_box">
+              <i class="fa-solid fa-microphone"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="main_search_btn_box">
+          <input type="submit" value="Google Search" />
+          <input type="submit" name="btnI" value="I'm feeling lucky" />
+        </div>
+      </form>
+    </main>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/6d66577a7c.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
